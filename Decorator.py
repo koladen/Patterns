@@ -10,6 +10,7 @@
 
 from abc import ABC, abstractmethod
 
+
 class Beverage(ABC):
     def __init__(self):
         self.description = 'Unknown Beverage'
