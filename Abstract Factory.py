@@ -43,7 +43,7 @@ class Arahis(Snack):
         print('Мммм... солененький')
 
 
-class Fua_gra(Snack):
+class FuaGra(Snack):
     def eat_snack(self):
         print('Писец ее мало, а такая дорогая...')
 
@@ -65,7 +65,7 @@ class CheapShop(AbstractShop):
 class ExpensiveShop(AbstractShop):
     def bay_vkusnyashki(self):
         beer = Corona()
-        snack = Fua_gra()
+        snack = FuaGra()
         return beer, snack
 
 
